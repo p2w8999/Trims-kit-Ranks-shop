@@ -1,0 +1,26 @@
+{
+  "comment": "Catalog shown by index.html. type = rank | money | shards | keys; value is what the mod delivers. price is display-only - everything is $0.00.",
+  "items": [
+    { "id": "member",     "name": "Member",     "icon": "💙", "type": "rank",   "value": "member",     "description": "Recognized server community member." },
+    { "id": "vip",        "name": "VIP",        "icon": "💚", "type": "rank",   "value": "vip",        "description": "Very Important Player status." },
+    { "id": "vip_plus",   "name": "VIP+",       "icon": "🌿", "type": "rank",   "value": "vip_plus",   "description": "Enhanced VIP privileges and emerald flair." },
+    { "id": "mvp",        "name": "MVP",        "icon": "💎", "type": "rank",   "value": "mvp",        "description": "Most Valuable Player status." },
+    { "id": "mvp_plus",   "name": "MVP+",       "icon": "🔷", "type": "rank",   "value": "mvp_plus",   "description": "High-tier champion badge." },
+    { "id": "dono",       "name": "Dono",       "icon": "❤️", "type": "rank",   "value": "dono",       "description": "Generous supporter badge." },
+    { "id": "sponsor",    "name": "Sponsor",    "icon": "🏅", "type": "rank",   "value": "sponsor",    "description": "Server patron & elite sponsor rank." },
+    { "id": "champion",   "name": "Champion",   "icon": "⚔️", "type": "rank",   "value": "champion",   "description": "Arena conqueror and warrior title." },
+    { "id": "hero",       "name": "Hero",       "icon": "⚡", "type": "rank",   "value": "hero",       "description": "Hero of the server realm." },
+    { "id": "legend",     "name": "Legend",     "icon": "👑", "type": "rank",   "value": "legend",     "description": "Legendary prestige status." },
+    { "id": "mythic",     "name": "Mythic",     "icon": "✦",  "type": "rank",   "value": "mythic",     "description": "Mythical aura and regal nametag." },
+    { "id": "titan",      "name": "Titan",      "icon": "▲",  "type": "rank",   "value": "titan",      "description": "Colossal presence on the tablist." },
+    { "id": "celestial",  "name": "Celestial",  "icon": "☀️", "type": "rank",   "value": "celestial",  "description": "Divine celestial radiance." },
+    { "id": "godlike",    "name": "Godlike",    "icon": "⚡👑", "type": "rank", "value": "godlike",    "description": "Ultimate apex rank." },
+    { "id": "money_100k", "name": "$100,000",   "icon": "💵", "type": "money",  "value": "100000",     "description": "In-game cash, straight to your /money balance." },
+    { "id": "money_1m",   "name": "$1,000,000", "icon": "💰", "type": "money",  "value": "1000000",    "description": "A million in-game dollars." },
+    { "id": "money_10m",  "name": "$10,000,000","icon": "🏦", "type": "money",  "value": "10000000",   "description": "Serious money for serious buys." },
+    { "id": "shards_100", "name": "100 Shards", "icon": "🔮", "type": "shards", "value": "100",        "description": "Shards for the /shardshop." },
+    { "id": "shards_500", "name": "500 Shards", "icon": "💠", "type": "shards", "value": "500",        "description": "A bigger shard stack." },
+    { "id": "keys_1",     "name": "1 Crate Key","icon": "🗝️", "type": "keys",   "value": "1",          "description": "One key for the random reward crate." },
+    { "id": "keys_5",     "name": "5 Crate Keys","icon": "🔑", "type": "keys",  "value": "5",          "description": "Five keys - five rolls of the crate." }
+  ]
+}

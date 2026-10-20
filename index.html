@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TrimKits Web Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>⚔️ TrimKits Store</h1>
+  <p class="tagline">Ranks, money, shards &amp; crate keys — <strong>everything $0.00</strong>, delivered in game.</p>
+</header>
+
+<section id="checkout-banner" class="banner hidden">
+  <span id="banner-text"></span>
+  <button id="banner-close" aria-label="Close">✕</button>
+</section>
+
+<main>
+  <div class="panel">
+    <h2>🛒 Your Order</h2>
+    <label for="mc-user">Minecraft username <span class="req">(who receives the stuff)</span></label>
+    <input id="mc-user" type="text" placeholder="e.g. Notch" maxlength="16" autocomplete="off">
+    <p class="hint">The mod delivers to this user when they are online in game.</p>
+
+    <ul id="cart" class="cart"><li class="empty">Nothing selected yet — click Buy on an item below.</li></ul>
+
+    <div class="totals">
+      <div><span>Items</span><span id="cart-count">0</span></div>
+      <div class="grand"><span>Total</span><span>$0.00</span></div>
+    </div>
+
+    <button id="place-order" class="primary" disabled>Place Order ($0.00)</button>
+    <p id="order-status" class="status"></p>
+  </div>
+
+  <div class="panel">
+    <h2>📦 Catalog</h2>
+    <div id="catalog" class="catalog"></div>
+  </div>
+</main>
+
+<footer>
+  <p>Orders are written to <code>orders.json</code> in this site's GitHub repository.
+     The Minecraft mod polls that file and delivers each purchase in game.</p>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
